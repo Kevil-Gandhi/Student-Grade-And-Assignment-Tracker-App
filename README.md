@@ -7,7 +7,7 @@ A android-based application that allows **teachers** to upload assignments and a
 
 ## Download
 
-> [![Download APK](https://img.shields.io/badge/📦%20Download%20EduTracker-blue?style=for-the-badge&logo=android)](https://github.com/Kevil-Gandhi/Student-Grade-And-Assignment-Tracker-App/raw/main/EduTracker.apk)
+> [![Download APK](https://img.shields.io/badge/📦%20Download%20EduTracker-blue?style=for-the-badge&logo=android)](https://github.com/Kevil-Gandhi/Student-Grade-And-Assignment-Tracker-App/raw/master/EduTracker.apk)
 
 ---
 
