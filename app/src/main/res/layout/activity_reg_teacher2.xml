@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reg_teacher_2"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/register_2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="#D4F1F4"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/sem_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 1"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/lay_sem_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginStart="50dp">
+
+                <CheckBox
+                    android:id="@+id/sem1_sub1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem1:Subject1"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem1_sub2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem1:Subject2"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem1_sub3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem1:Subject3"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem1_sub4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem1:Subject4"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem1_sub5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem1:Subject5"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/sem_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 2"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/lay_sem_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginStart="50dp">
+
+                <CheckBox
+                    android:id="@+id/sem2_sub1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem2:Subject1"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem2_sub2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem2:Subject2"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem2_sub3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem2:Subject3"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem2_sub4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem2:Subject4"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem2_sub5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem2:Subject5"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/sem_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 3"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/lay_sem_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginStart="50dp">
+
+                <CheckBox
+                    android:id="@+id/sem3_sub1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem3:Subject1"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem3_sub2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem3:Subject2"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem3_sub3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem3:Subject3"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem3_sub4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem3:Subject4"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem3_sub5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem3:Subject5"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/sem_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 4"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/lay_sem_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginStart="50dp">
+
+                <CheckBox
+                    android:id="@+id/sem4_sub1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem4:Subject1"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem4_sub2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem4:Subject2"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem4_sub3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem4:Subject3"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem4_sub4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem4:Subject4"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem4_sub5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem4:Subject5"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/sem_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 5"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/lay_sem_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginStart="50dp">
+
+                <CheckBox
+                    android:id="@+id/sem5_sub1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem5:Subject1"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem5_sub2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem5:Subject2"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem5_sub3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem5:Subject3"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem5_sub4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem5:Subject4"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem5_sub5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem5:Subject5"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/sem_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 6"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/lay_sem_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginStart="50dp">
+
+                <CheckBox
+                    android:id="@+id/sem6_sub1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem6:Subject1"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem6_sub2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem6:Subject2"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem6_sub3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem6:Subject3"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem6_sub4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem6:Subject4"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/sem6_sub5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem6:Subject5"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/prev"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border"
+            android:drawableStart="@drawable/baseline_arrow_back_ios_24"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/prev"
+            android:textAllCaps="false"
+            android:textColor="#D4F1F4"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reg"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="Register"
+            android:layout_marginStart="40dp"
+            android:textAllCaps="false"
+            android:textColor="#D4F1F4"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    </LinearLayout>
+
+</LinearLayout>

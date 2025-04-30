@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reg_teacher"
+    android:layout_marginTop="30dp"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/register_2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="#D4F1F4"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:hint="@string/first_name"
+                android:padding="15dp"
+                android:paddingStart="20dp"
+                app:boxStrokeColor="#189AB4"
+                app:hintTextColor="#05445E"
+                tools:ignore="RtlSymmetry">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/baseline_person_24"
+                    android:drawablePadding="10dp"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:hint="@string/last_name"
+                android:padding="15dp"
+                android:paddingStart="20dp"
+                app:boxStrokeColor="#189AB4"
+                app:hintTextColor="#05445E"
+                app:passwordToggleEnabled="false"
+                tools:ignore="RtlSymmetry">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/baseline_person_24"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:paddingStart="20dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:hint="@string/contact_no"
+                android:padding="15dp"
+                android:paddingStart="20dp"
+                app:boxStrokeColor="#189AB4"
+                app:hintTextColor="#05445E"
+                app:passwordToggleEnabled="false"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                tools:ignore="RtlSymmetry">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/baseline_phone_24"
+                    android:drawablePadding="10dp"
+                    android:inputType="number"
+                    android:paddingStart="20dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Female"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+<!--            <com.google.android.material.textfield.TextInputLayout-->
+<!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:hint="@string/roll_no"-->
+<!--                android:padding="15dp"-->
+<!--                android:paddingStart="20dp"-->
+<!--                app:boxStrokeColor="#189AB4"-->
+<!--                app:hintTextColor="#05445E"-->
+<!--                app:passwordToggleEnabled="false"-->
+<!--                tools:ignore="RtlSymmetry">-->
+
+<!--                <com.google.android.material.textfield.TextInputEditText-->
+<!--                    android:id="@+id/rollno"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableStart="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:inputType="number"-->
+<!--                    android:paddingStart="20dp"-->
+<!--                    tools:ignore="RtlSymmetry" />-->
+
+<!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="0dp"-->
+            <!--                android:hint="@string/last_name"-->
+            <!--                android:padding="15dp"-->
+            <!--                android:paddingStart="20dp"-->
+            <!--                app:boxStrokeColor="#189AB4"-->
+            <!--                app:hintTextColor="#05445E"-->
+            <!--                app:passwordToggleEnabled="true"-->
+            <!--                tools:ignore="RtlSymmetry">-->
+
+            <!--                <com.google.android.material.textfield.TextInputEditText-->
+            <!--                    android:id="@+id/sem"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:drawableStart="@drawable/baseline_person_24"-->
+            <!--                    android:drawablePadding="10dp"-->
+            <!--                    android:inputType="text"-->
+            <!--                    android:paddingStart="20dp"-->
+            <!--                    tools:ignore="RtlSymmetry" />-->
+
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+            <Spinner
+                android:id="@+id/qualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAlignment="center"
+                android:padding="13dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/prev"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border"
+            android:drawableStart="@drawable/baseline_arrow_back_ios_24"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/prev"
+            android:textAllCaps="false"
+            android:textColor="#D4F1F4"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reg"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/next"
+            android:layout_marginStart="40dp"
+            android:textAllCaps="false"
+            android:textColor="#D4F1F4"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    </LinearLayout>
+
+</LinearLayout>
