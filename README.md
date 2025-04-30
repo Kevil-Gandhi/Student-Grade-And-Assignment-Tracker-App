@@ -1,5 +1,6 @@
 # 📚 Student Assignment & Grading System
 
+
 A android-based application that allows **teachers** to upload assignments and assign grades, while **students** can view, download, submit assignments, and check grades — all from a clean, simple interface.
 
 ---
