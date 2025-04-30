@@ -17,7 +17,6 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     override fun onNewToken(token: String) {
         super.onNewToken(token)
         Log.d("FCM", "Token: $token")
-        // TODO: You can send this token to your server to target this device for notifications
     }
 
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
